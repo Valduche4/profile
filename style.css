@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Space+Mono&display=swap');
+
+body {
+  background-color: #a7a7a9;
+  color: #56494e;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-size: 20px;
+  line-height: 30px;
+}
+h1 {
+  color: #a62639;
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+  line-height: 1em;
+}
+
+h2 {
+  color: #a62639;
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+  line-height: 1em;
+}
+
+p {
+  margin: 30px auto;
+}
+
+#mydog {
+  width: 200px; /* width of container */
+  height: 200px; /* height of container */
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+#Val {
+  width: 100px;
+  height: 200px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  background-color: blue;
+  padding: 20px;
+  border-radius: 6px;
+  margin: 20px auto;
+}
+a:hover {
+  background-color: rosybrown;
+}
+
+#black-button {
+  background-color: black;
+}
+
+#yellow-button {
+  background-color: yellow;
+  color: black;
+  border: 0.3px solid black;
+}
+
+#red-button {
+  background-color: red;
+  color: black;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card {
+  margin: 20px 0;
+  padding: 30px;
+  border-radius: 4px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 3px 3px 3px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 auto;
+  display: inline-block;
+}
+ul {
+  padding-left: 0;
+}
